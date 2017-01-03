@@ -1,0 +1,43 @@
+.text-red {
+    color: #f00;
+}
+.bg-1 {
+    background-color: #FFFE02;
+}
+.bg-2 {
+    background-color: #0088FE;
+}
+.bg-3 {
+    background-color: #505050;
+}
+.bg-4 {
+    background-color: #FC7301;
+}
+.bg-5 {
+    background-color: #505050;
+}
+.bg-6 {
+    background-color: #5100FD;
+}
+.bg-7 {
+    background-color: #E3E3E3;
+}
+.bg-8 {
+    background-color: #FF0302;
+}
+.bg-9 {
+    background-color: #770003;
+}
+.bg-10 {
+    background-color: #27C203;
+}
+.number-item {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 1px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: #fff;
+}

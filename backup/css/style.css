@@ -1,0 +1,240 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300');
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,700,700italic,500,500italic,600,600italic');
+body {
+    font-family: Raleway, Open Sans, tahoma, Helvetica;
+}
+a, a:hover, a:focus, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    font-weight: normal;
+}
+.pdl10 {
+    padding-left: 10px;
+}
+.pdr10 {
+    padding-right: 10px;
+}
+.pdb10 {
+    padding-bottom: 10px;
+}
+.pdt10 {
+    padding-top: 10px;
+}
+.mgr10 {
+    margin-right: 10px;
+}
+.mgl10 {
+    margin-left: 10px;
+}
+.mgt10 {
+    margin-top: 10px;
+}
+.mgb10 {
+    margin-bottom: 10px;
+}
+.nav-header {
+    background: #0a3b3a;
+}
+ul {
+    list-style: none;
+}
+.navbar-default .navbar-nav> li> a {
+    color: #fff;
+    padding: 0 0 0 15px;
+}
+.navbar-default .navbar-nav> li> a:hover, .navbar-default .navbar-nav> li> a:focus {
+    color: #859d9d;
+}
+.navbar-default {
+    background: transparent;
+    border: none;
+}
+.setting-menu {
+    padding-top: 10px;
+}
+.setting-menu .fa {
+    color: #fff;
+}
+.setting-menu ul> li> a {
+    color: #2aafaf;
+    font-size: 3rem;
+}
+img.logo {
+    max-height: 95px;
+    max-width: 100%;
+    padding: 10px 0;
+}
+nav.navbar {
+    min-height: 15px;
+    margin-bottom: 15px;
+}
+.setting-menu img {
+    display: inline-block;
+    margin-right: 10px;
+}
+.writing-status {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.writing-status textarea {
+    border: none;
+    width: 91%;
+    margin-top: 5px;
+    box-shadow: none;
+}
+.writing-status hr {
+    border-bottom: 1px solid #bbb;
+    width: 98%;
+    margin: 5px auto;
+}
+.list-activities a {
+    font-size: 20px;
+    color: #7c8725;
+}
+.list-activities> li> a, .list-activities> li> a> i {
+    color: #7c8725;
+}
+.list-activities> li {
+    border-right: 1px solid #7c8725;
+}
+.list-activities> li:last-child {
+    border-right: none;
+}
+@media screen and (max-width:996px) {
+    .setting-menu {
+        float: none !important;
+        text-align: center;
+    }
+    img.logo {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .setting-menu {
+        float: left !important;
+    }
+}
+.activities {
+    margin: 15px 0;
+    padding: 0 40px;
+}
+.time-post {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #7c8725;
+    min-width: 100px;
+    padding: 2px 5px;
+}
+.wrap-activity {
+    position: relative;
+    background: #f3f3f3;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+.has-quote:before {
+    background: url("../images/nhay1.png") top left no-repeat;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: -3px;
+    left: -40px;
+}
+.has-quote:after {
+    background: url("../images/nhay2.png") bottom right no-repeat;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: -3px;
+    right: -40px;
+}
+.main-content {
+    margin-top: 20px;
+}
+.avatar {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    margin: 10px;
+}
+.avatar img {
+    max-width: 100%;
+}
+.red {
+    color: #f00;
+}
+img {
+    max-width: 100%;
+}
+.title-comment {
+    margin-top: 0;
+}
+#burst-12 {
+    background: red;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+}
+#burst-12:before, #burst-12:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: red;
+}
+#burst-12:before {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
+#burst-12:after {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+}
+.group-search {
+    display: flex;
+}
+.qc-image {
+    margin-top: 5px;
+}
+.qc-image img {
+    width: 100%;
+}
+.nearly-by {
+    height: 120px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.quote-old {
+    padding-left: 25px;
+}
+.quote-old hr {
+    margin: 1px;
+    border-bottom: 2px solid #000;
+}
+.quote-old .avatar {
+    margin-left: 0;
+}
+.btn-search {
+    background-color: #c6d550;
+}
+.btn {
+    border: 1px solid #bbb;
+}
+.setting-menu> ul> li {
+    border-right: 1px solid #859d9d
+}
+.setting-menu> ul> li:last-child {
+    border-right: none;
+}
+.no-margin {
+    margin: 0;
+}
